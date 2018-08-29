@@ -48,9 +48,7 @@
       <th scope="col">Local</th>
       <th scope="col">Data de Devolução</th>
       <th scope="col">Data de Saida</th>
-      <th scope="col"></th>
-      <th scope="col"></th>
-      <th scope="col"></th>
+    
     </tr>
   </thead>
   <tbody>
@@ -87,8 +85,7 @@
       <td><?=$local ?></td>
       <td><?=$devo ?></td>
       <td><?=$saida ?></td>
-      <td>Editar</td>
-      <td>Remover </td>
+
     </tr>
          <?php 
             }

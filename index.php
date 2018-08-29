@@ -59,8 +59,14 @@
   <h1 class="display-4">Ola!</h1>
   <p class="lead">Bem vindo ao site de locacao de veiculos.</p>
   <hr class="my-4">
+<?php     if(!isset($_SESSION['login'])){ ?>
+  
+   
+ 
   <p>Registre para começar a utilizar .</p>
   <a class="btn btn-primary btn-lg" href="registro.php" role="button">Registrar</a>
+  
+<?php } ?>
 </div>
 </div>
 <script src='js/bootstrap.js'></script>

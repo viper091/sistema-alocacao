@@ -1,6 +1,9 @@
 <?php 
     include_once 'db.php';
-
+    if(isset($_SESSION['login'])){
+        header('Location: index.php');
+   
+    }
     if(isset($_POST['email'])
      && isset($_POST['pass']))
     {

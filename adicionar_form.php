@@ -31,23 +31,23 @@
         <input name='tarefa' value='adicionar' style='display:none'> 
         <h1 class="h3 mb-3 font-weight-normal">Registro locação</h1>
         <div>
-            <label class="sr-only">placa</label>
+            <label >placa</label>
             <input type="name"  class="form-control" name='placa' required autofocus>
         </div>
         <div>
-            <label class="sr-only">local de locacao</label>
+            <label >local de locacao</label>
             <input type="name"  class="form-control" name='local_de_locacao' required autofocus>
         </div>
         <div>
-            <label class="sr-only">nome do carro</label>
+            <label >nome do carro</label>
             <input type="name"  class="form-control" name='car' required autofocus>
         </div>
         <div>
-            <label class="sr-only">data de saida</label>
+            <label>data de saida</label>
             <input type="date"  class="form-control" name='saida' required autofocus>
         </div>
         <div>
-        <label class="sr-only">data de devolução</label>
+        <label >data de devolução</label>
         <input type="date"  class="form-control" name='devo' required autofocus>
         </div>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Registrar</button>
